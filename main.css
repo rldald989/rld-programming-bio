@@ -1,23 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+
 body
 {
-    color: #4ac3ef;
+    color: #CBC3E3;
     text-align:left;
     font-size: 25px;
-    font-family: "Cascadia Code";
-    background-color: #1e1f1c;
+    font-family: "Tilt Neon";
+    background-color: #1d1919;
 }
 
 #top-right
 {
-    color: #4ac3ef;
-    background-color: #272822;
-    margin-bottom: 50;
+    color: #ef4a4a;
+    margin-top: 10;
+    margin-bottom: -50px;
+    padding-left: 15px;
+    width: 24%;
 }
 
 #sidebar
 {
     color: #a6e22e;
-    background-color: #272822;
+    padding-left: 15px;
+    height: 100%;
+    width: 15%;
+    font-family: "Source Code Pro";
+    background-color: #302929;
 }
 
 #current
@@ -28,12 +37,23 @@ body
 #writing-space
 {
     color: white;
-    padding-right: 200px;
+    margin-left: 20%;
+    text-shadow: 2px 2px 2px black;
 }
 
 #space-headers
 {
-    margin-top: -120px;
+    margin-top: -320px;
+    margin-left: 20%;
+    color:#a6e22e;
+    text-shadow: 2px 2px 2px black;
+}
+
+#language-headers
+{
+    margin-left: 20%;
+    color:#CBC3E3;
+    text-shadow: 2px 2px 2px black;
 }
 
 a:visited 
@@ -47,12 +67,4 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 
-@font-face {
-    font-family: 'Cascadia Code';
-    src: url('CascadiaCode.woff2') format('woff2'),
-        url('CascadiaCode.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
+a:link { text-decoration: none; }
