@@ -1,0 +1,58 @@
+body
+{
+    color: #4ac3ef;
+    text-align:left;
+    font-size: 25px;
+    font-family: "Cascadia Code";
+    background-color: #1e1f1c;
+}
+
+#top-right
+{
+    color: #4ac3ef;
+    background-color: #272822;
+    margin-bottom: 50;
+}
+
+#sidebar
+{
+    color: #a6e22e;
+    background-color: #272822;
+}
+
+#current
+{
+    color: grey;
+}
+
+#writing-space
+{
+    color: white;
+    padding-right: 200px;
+}
+
+#space-headers
+{
+    margin-top: -120px;
+}
+
+a:visited 
+{ 
+    text-decoration: none; 
+    color: #a6e22e;
+}
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('CascadiaCode.woff2') format('woff2'),
+        url('CascadiaCode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
