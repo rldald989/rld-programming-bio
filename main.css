@@ -4,29 +4,12 @@
 body
 {
     color: #CBC3E3;
-    text-align:left;
+    text-align: center;
     font-size: 25px;
-    font-family: "Tilt Neon";
-    background-color: #1d1919;
-}
-
-#top-right
-{
-    color: #ef4a4a;
-    margin-top: 10;
-    margin-bottom: -50px;
-    padding-left: 15px;
-    width: 24%;
-}
-
-#sidebar
-{
-    color: #a6e22e;
-    padding-left: 15px;
-    height: 100%;
-    width: 15%;
     font-family: "Source Code Pro";
-    background-color: #302929;
+    background-color: #1d1919;
+    background: linear-gradient(to bottom, #1d1919, black);
+    height: 648px;
 }
 
 #current
@@ -34,32 +17,50 @@ body
     color: grey;
 }
 
-#writing-space
+#space-headers
 {
-    color: white;
-    margin-left: 20%;
+    color: #CBC3E3;
     text-shadow: 2px 2px 2px black;
 }
 
-#space-headers
+#writing-space
 {
-    margin-top: -320px;
-    margin-left: 20%;
-    color:#a6e22e;
+    color: white;
     text-shadow: 2px 2px 2px black;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #language-headers
 {
-    margin-left: 20%;
     color:#CBC3E3;
     text-shadow: 2px 2px 2px black;
+}
+
+.top-bar
+{
+    margin-top: -10px;
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    color: white;
+    background-color: black;
+    background-size: 100%;
+}
+
+.bottom-page
+{
+    background-color: white;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
 a:visited 
 { 
     text-decoration: none; 
-    color: #a6e22e;
+    color: white;
 }
 
 a:hover { text-decoration: none; }
