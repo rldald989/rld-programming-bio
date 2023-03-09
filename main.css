@@ -43,8 +43,10 @@ body
     display: inline-block;
     width: 20%;
     color: white;
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     background-size: 100%;
+
+    border-color: rgb(24, 24, 24);
 }
 
 .bottom-page
