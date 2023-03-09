@@ -7,9 +7,8 @@ body
     text-align: center;
     font-size: 25px;
     font-family: "Source Code Pro";
-    background-color: #1d1919;
-    background: linear-gradient(to bottom, #1d1919, black);
-    height: 648px;
+    background-image: linear-gradient(to bottom, #1d1919, black );
+    
 }
 
 #current
@@ -27,8 +26,8 @@ body
 {
     color: white;
     text-shadow: 2px 2px 2px black;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #language-headers
@@ -55,6 +54,46 @@ body
     margin: 0px;
     padding: 0px;
     text-align: center;
+}
+
+.parallax-cherno
+{
+    background-image: linear-gradient(to bottom, #1d1919, transparent),url(img/parallax/the-cherno-plx.png);
+    min-height: 200px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-bullet
+{
+    background-image: linear-gradient(to bottom, #1d1919, transparent),url(img/parallax/code-bullet-plx.png);
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-brkeys
+{
+    background-image: linear-gradient(to bottom, #1d1919, transparent),url(img/parallax/brackeys-plx.png);
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-atg
+{
+    background-image: linear-gradient(to bottom, #1d1919, transparent),url(img/parallax/ange-the-great-plx.png);
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a:visited 
