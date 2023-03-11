@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="external/main.css"></link>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
     <title>Rld Coding</title>
 </head>
 
@@ -42,12 +44,17 @@
         </h5>
         <div class="code">
             <h5 id="writing-space">
-                #include &ltiostream&gt<br>
-                <br>
-                int main()<br>
-                {<br>
-            &nbsp   std::cout << "Hello World" << std::endl;<br>
-                }<br>
+                <pre>
+                    <code style="background-color: rgb(32, 32, 32)"">
+                    #include &ltiostream&gt<br>
+                    <br>
+                    int main()<br>
+                    {<br>
+                        std::cout << "Hello World" << std::endl;<br>
+                    }<br>
+                    </code>
+                </pre>
+            </h5>
         </div>
         <h5 id="writing-space">
             The #include tells our program that we want to 
@@ -72,7 +79,11 @@
             </h5>
             <div class="code">
                 <h5 id="writing-space">
-                    int i = 10;
+                    <pre>
+                        <code style="background-color: rgb(32, 32, 32)">
+                        int i = 10;
+                        </code>
+                    </pre>
                 </h5>
             </div>
             <h5 id="writing-space">
@@ -90,20 +101,21 @@
             <h5 id="writing-space">
                 Another variable is a string, it is defined like this:
             </h5>
-            <div class="comment">
-                <h5 id="writing-space">
-                    //Make sure you have iostream included in the file
-                </h5>
-            </div>
             <div class="code">
                 <h5 id="writing-space">
-                    std::string = "Hello World!";
+                    <pre>
+                        <code style="background-color: rgb(32, 32, 32)">
+                        //Make sure you have iostream included in the file
+                        std::string = "Hello World!";
+                        </code>
+                    </pre>
                 </h5>
             </div>
-            <h5 id="writing-space">
-                Another variable is a string, it is defined like this:
-            </h5>
         </div>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 </html>
