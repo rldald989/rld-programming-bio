@@ -1,17 +1,17 @@
 
 @font-face {
     font-family: Roboto_Thin;
-    src: url(../Fonts/Roboto-Thin.ttf);
+    src: url(../fonts/Roboto-Thin.ttf);
 }
 
 @font-face {
     font-family: Roboto_Regular;
-    src: url(../Fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: Arial_Narrow;
-    src: url(../Fonts/arialnarrow.ttf);
+    src: url(../fonts/arialnarrow.ttf);
 }
 
 body
