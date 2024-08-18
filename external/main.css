@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Tilt+Neon&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 @font-face {
     font-family: Roboto_Thin;
@@ -22,7 +19,7 @@ body
     color: #ffffff;
     text-align: center;
     font-size: 25px;
-    font-family: "Roboto_Thin";
+    font-family: Roboto_Thin;
     background-image: linear-gradient(to top, #ABA9BB, #464555 );
     
 }
@@ -42,7 +39,7 @@ body
     color: #a29fd4;
     padding-bottom: 30px;
     padding-top: 20px;
-    font-family: "Roboto_Regular";
+    font-family: Roboto_Regular;
 }
 
 #writing-space
@@ -118,7 +115,7 @@ a:link { text-decoration: none; }
 .footer{
     background-color: #464555;
     text-align: left;
-    font-family: "Arial_Narrow", Arial, Helvetica, sans-serif;
+    font-family: Arial_Narrow, Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     font-weight:100;
     text-align: center;
